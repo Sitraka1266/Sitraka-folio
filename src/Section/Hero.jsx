@@ -78,7 +78,7 @@ export function Hero() {
               Voir mes projets<i className="fas fa-arrow-down ms-2"></i>
             </a>
             <a
-              href="/cv/Sitraka's CV.png"
+              href="/cv/sitraka.pdf"
               download
               className="btn btn-outline-light btn-lg button-shadow-elevate animate-fade-in delay-500 "
             >
