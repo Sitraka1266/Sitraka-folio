@@ -6,10 +6,10 @@ export function Navbar() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const navLinks = [
-    { href: "#hero", label: "Acceuille", id: "hero" },
-    { href: "#a-propos", label: "À propos", id: "about" },
-    { href: "#skills", label: "Compétences", id: "skills" },
-    { href: "#projets", label: "Projets", id: "projects" },
+    { href: "#hero", label: "Home", id: "hero" },
+    { href: "#a-propos", label: "About", id: "about" },
+    { href: "#skills", label: "Skills", id: "skills" },
+    { href: "#projets", label: "Projects", id: "projects" },
     { href: "#contact", label: "Contact", id: "contact" },
   ];
 
