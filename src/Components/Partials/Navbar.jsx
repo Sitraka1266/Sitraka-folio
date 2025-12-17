@@ -48,7 +48,6 @@ export function Navbar() {
               <NavLink key={link.id} href={link.href} label={link.label} />
             ))}
             <ThemeToggle />
-            {/* CTA button: subtle, pill-shaped - visible on larger screens */}
             <li className="nav-item d-none d-lg-block ms-2">
               <a href="#contact" className="btn btn-sm btn-primary cta-btn" onClick={handleNavClick}>
                 Get in Touch
