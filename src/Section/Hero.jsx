@@ -44,7 +44,7 @@ export function Hero() {
               className="carousel-control-prev-icon"
               aria-hidden="true"
             ></span>
-            <span className="visually-hidden">Précédent</span>
+            <span className="visually-hidden">Previous</span>
           </button>
           <button
             className="carousel-control-next"
@@ -56,7 +56,7 @@ export function Hero() {
               className="carousel-control-next-icon"
               aria-hidden="true"
             ></span>
-            <span className="visually-hidden">Suivant</span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
 
@@ -65,24 +65,24 @@ export function Hero() {
           style={{ zIndex: 2 }}
         >
           <h1 className="display-3 mb-4 text-shadow-deep animate-fade-in">
-            Salut je suis Sitraka RATOVONARIVO
+            Hi I'm Sitraka RATOVONARIVO
           </h1>
           <p className="lead mb-5 text-shadow-soft animate-fade-in delay-200">
-            Je suis un developpeur web specialiser dans le Backend
+            I am a web developer specializing in Backend
           </p>
           <div className="d-flex flex-column flex-md-row gap-3">
             <a
               href="#projets"
               className="btn btn-primary btn-lg button-shadow-elevate animate-fade-in delay-400 text-white"
             >
-              Voir mes projets<i className="fas fa-arrow-down ms-2"></i>
+              See my projects<i className="fas fa-arrow-down ms-2"></i>
             </a>
             <a
               href="/cv/sitraka.pdf"
               download
               className="btn btn-outline-light btn-lg button-shadow-elevate animate-fade-in delay-500 "
             >
-              Télecharger mon CV <i className="fas fa-download ms-2"></i>
+              Download my CV <i className="fas fa-download ms-2"></i>
             </a>
           </div>
         </div>

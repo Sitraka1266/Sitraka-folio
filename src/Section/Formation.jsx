@@ -7,7 +7,8 @@ export function Formation() {
   return (
     <section id="formation" className="py-5">
       <div className="container">
-        <h2 className="text-center mb-5 section-title animate-fade-in">Études & Formation</h2>
+        <h2 className="text-center mb-5 section-title animate-fade-in">
+          Studies & Training</h2>
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="timeline">

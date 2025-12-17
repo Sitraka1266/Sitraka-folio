@@ -1,18 +1,17 @@
 import { SkillIcon } from "../Components/SkillIcon";
 import SkillCard from "../Components/SkillCard";
-import { color } from "three/tsl";
 
 export function Skills() {
   return (
     <section id="skills" className="py-5">
       <div className="container">
         <h2 className="text-center mb-5 section-title animate-fade-in">
-          Mes Compétences Techniques
+          Technical Stack & Development Skills
         </h2>
         <div className="row justify-content-center text-center">
           <SkillCard
             wrapperClass="col-md-6 col-lg-4 mb-4 animate-slide-in-right delay-100"
-            title="Langages"
+            title="Languages"
           >
             <SkillIcon
               iconClass="fab fa-html5 fa-4x"
@@ -61,7 +60,7 @@ export function Skills() {
 
           <SkillCard
             wrapperClass="col-md-6 col-lg-4 mb-4 animate-slide-in-right delay-300"
-            title="Base de donnée"
+            title="Database"
           >
             <SkillIcon
               iconClass="devicon-mysql-plain colored fa-4x"
@@ -79,7 +78,7 @@ export function Skills() {
 
           <SkillCard
             wrapperClass="col-md-6 col-lg-4 mb-4 animate-slide-in-right delay-300"
-            title="Outils"
+            title="Tools"
           >
             <SkillIcon
               iconClass="devicon-github-plain colored fa-4x"

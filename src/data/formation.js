@@ -2,27 +2,27 @@ export const formationEntries = [
   {
     id: 1,
     iconClass: "fas fa-graduation-cap",
-    title: "2023 - 2025 : DTS en Informatique de gestion",
+    title: "2023 – 2025: Diploma in Information Management",
     subtitle: "ESPIC - Ankazomanga",
     description:
-      "Formation axée sur le développement web et la conception de systèmes d'information. Acquisition de compétences en création de solutions robustes répondant aux besoins métiers et garantissant la qualité des applications.",
+      "Training focused on web development and information systems design. Gained skills in creating robust solutions that meet business needs while ensuring application quality.",
     animation: "animate-slide-in-right",
     delay: "100",
   },
   {
     id: 2,
     iconClass: "fa-solid fa-language",
-    title: "2023 - 2024 : Langue anglaise",
+    title: "2023 - 2024: English Language",
     subtitle: "Englestia",
     description:
-      "Développement des compétences en anglais. Maîtrise essentielle pour une communication professionnelle et la collaboration dans un environnement global.",
+      "Development of English language skills. Essential proficiency for professional communication and collaboration in a global environment.",
     animation: "animate-slide-in-left",
     delay: "200",
   },
   {
     id: 3,
     iconClass: "fas fa-book-open-reader",
-    title: "2023 : Bacc OSE",
+    title: "2023: Bacc OSE",
     subtitle: "Lycée Nanisana",
     description: "",
     animation: "animate-slide-in-left",

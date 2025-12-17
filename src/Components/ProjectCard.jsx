@@ -31,7 +31,7 @@ export function ProjectCard({ title, description, imageSrc, hasDemo = true, demo
             rel="noreferrer"
             className="btn btn-outline-primary text-end btn-sm button-shadow-flat ss"
             
-            >Source code <i class="fa-brands fa-github"></i></a> : ''}
+            >Source code <i className="fa-brands fa-github"></i></a> : ''}
             </div>
         </div>
       </div>
