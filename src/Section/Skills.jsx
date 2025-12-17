@@ -40,10 +40,6 @@ export function Skills() {
             title="Frameworks & Librairies"
           >
             <SkillIcon
-              iconClass="devicon-bootstrap-plain colored fa-4x"
-              label="Bootstrap"
-            />
-            <SkillIcon
               iconClass="devicon-laravel-plain colored fa-4x"
               label="Laravel"
             />
