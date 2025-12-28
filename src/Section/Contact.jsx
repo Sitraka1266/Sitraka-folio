@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import HiddenDateInput from './hiddenInput';
+import { ContactIcon } from "./Contact/ContactIcon";
 
 
 export function Contact() {
@@ -42,7 +43,7 @@ export function Contact() {
 
             {/* Contact Info */}
             <div className="contact-info text-center mb-5 animate-fade-in delay-200">
-              <h4 className="mb-3">My contact details</h4>
+              <h4 className="mb-3">You can reach me via the links below.</h4>
               <p className="mb-2">
                 <strong>Email:</strong>{" "}
                 <a href={`mailto:${contactEmail}`} className="text-decoration-none text-primary">
@@ -50,18 +51,16 @@ export function Contact() {
                 </a>
               </p>
               <div className="social-links mt-3">
-                <a href="https://github.com/Sitraka1266" target="_blank" rel="noreferrer" className="mx-2 social-icon icon-shadow-hover">
-                  <i className="fab fa-github fa-2x"></i>
-                </a>
-                <a href="https://x.com/sitrakarat16009" target="_blank" rel="noreferrer" className="mx-2 social-icon icon-shadow-hover">
-                  <i className="fab fa-twitter fa-2x"></i>
-                </a>
+                <ContactIcon icon="fab fa-github" link="https://github.com/Sitraka1266" />
+                <ContactIcon icon="fab fa-twitter" link="https://x.com/sitrakarat16009" />
+                <ContactIcon icon="fab fa-instagram" link="https://www.instagram.com/sitraka_ratovonarivo/" />
+                <ContactIcon icon="fab fa-facebook" link="https://web.facebook.com/Sitraka.ratovonarivo1206" />
               </div>
             </div>
 
             {/* Contact Form */}
             <div className="contact-form animate-fade-in delay-300 p-5 shadow-lg rounded-4">
-              <h4 className="mb-4 text-center">Send me a message</h4>
+              <h2 className="mb-4 text-center">Contact me</h2>
               {success && (
                 <div className="alert alert-success alert-dismissible fade show mt-3" role="alert">
                   {success}
