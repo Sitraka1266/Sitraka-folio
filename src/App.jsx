@@ -6,6 +6,7 @@ import { Hero } from "./Section/Hero";
 import { Skills } from "./Section/Skills";
 import { Projects } from "./Section/Projects";
 import { Formation } from "./Section/Formation";
+import { Experience } from "./Section/Experience";
 import { Contact } from "./Section/Contact";
 import { Footer } from "./Section/Footer";
 
@@ -29,6 +30,7 @@ function App() {
       <Skills />
       <Projects />
       <Formation />
+      <Experience />
       <Contact />
       <Footer />
     </>

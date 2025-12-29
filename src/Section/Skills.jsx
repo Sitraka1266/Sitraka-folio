@@ -48,10 +48,6 @@ export function Skills() {
               style={{ color: "#61DAFB" }}
               label="React"
             />
-            <SkillIcon
-              iconClass="devicon-django-plain colored fa-4x"
-              label="Django"
-            />
           </SkillCard>
 
           <SkillCard

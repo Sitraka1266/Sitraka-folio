@@ -5,6 +5,7 @@ export const projects = [
     description:
       "Zarao is a Malagasy freelance platform designed to showcase the skills of Malagasy developers.",
     imageSrc: "/project/zarao.svg",
+    tech: ["php", "js"],
     hasDemo: true,
     demoUrl: "http://zarao.com/",
     sourceCode : 'https://github.com/Sitraka1266/Zarao.git',
@@ -17,6 +18,7 @@ export const projects = [
     description:
     "This is a multiplayer typing game I developed, showcased at a YMCA open house, where players compete in real-time to improve speed and accuracy.",
     imageSrc: "/project/dactylo.png",
+    tech: ["node", "socketio"],
     hasDemo: true,
     demoUrl: "https://dactylo-7nx0.onrender.com",
     sourceCode : "https://github.com/Sitraka1266/Dactylo.git",

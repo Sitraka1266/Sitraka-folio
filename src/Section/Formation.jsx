@@ -11,7 +11,7 @@ export function Formation() {
           Studies & Training</h2>
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="timeline">
+            <div className="timeline formation">
               {entries.map((e) => (
                 <TimelineItem key={e.id} {...e} />
               ))}

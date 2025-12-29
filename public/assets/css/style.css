@@ -70,6 +70,7 @@ section {
 #services,
 #a-propos,
 #formation,
+#experience,
 #autres {
   background-color: var(--section-bg-odd);
 }
@@ -331,6 +332,31 @@ html[data-theme="dark"] .ss:hover {
   color: #000;
 }
 
+#experience {
+  background: #2A2A3E;
+}
+
+.text-darker {
+  color: gray;
+}
+
+.c-orange {
+  color :#E34F26 !important;
+}
+.c-blue {
+  color :#1572B6 !important;
+}
+
+.company-logo {
+  width: 200%;
+  height: 100%;
+}
+.company-logo-white {
+  width: 200%;
+  border-radius: 50%;
+  background: white;
+  height: 100%;
+}
 /* Timeline pour la section Formation */
 .timeline {
   position: relative;
@@ -338,6 +364,10 @@ html[data-theme="dark"] .ss:hover {
   margin: 0;
   list-style: none;
 }
+
+.experience .timeline-item {
+  background: #1A1A2E;
+} 
 
 .timeline::before {
   content: "";
@@ -389,7 +419,23 @@ html[data-theme="dark"] .ss:hover {
   margin: 0 25px;
   box-shadow: var(--shadow-medium);
   transition: background-color 0.6s ease, box-shadow 0.6s ease;
-}
+} 
+.timeline-icon-wl {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  color: var(--primary-text-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  position: relative;
+  z-index: 1;
+  margin: 0 25px;
+  /* box-shadow: var(--shadow-medium); */
+  transition: background-color 0.6s ease, box-shadow 0.6s ease;
+} 
 
 .timeline-content {
   flex-grow: 1;
@@ -473,6 +519,29 @@ html[data-theme="dark"] .ss:hover {
   font-size: 0.9rem;
   color: var(--text-color);
   transition: color 0.6s ease;
+}
+
+/* Project tech icons/pills */
+.project-tech { 
+  flex-wrap: wrap;
+}
+.tech-img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: none;
+}
+.tech-icon {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+.tech-pill {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.04);
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: var(--text-color);
 }
 
 /* UTILITIES */
