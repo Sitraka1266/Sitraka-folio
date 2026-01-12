@@ -332,10 +332,6 @@ html[data-theme="dark"] .ss:hover {
   color: #000;
 }
 
-#experience {
-  background: #2A2A3E;
-}
-
 .text-darker {
   color: gray;
 }
@@ -365,9 +361,9 @@ html[data-theme="dark"] .ss:hover {
   list-style: none;
 }
 
-.experience .timeline-item {
-  background: #1A1A2E;
-} 
+  /* .experience .timeline-item {
+    background: #1A1A2E;
+  }  */
 
 .timeline::before {
   content: "";
