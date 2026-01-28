@@ -2,7 +2,7 @@ export const formationEntries = [
   {
     id: 1,
     iconClass: "fas fa-graduation-cap",
-    title: "2023 – 2025: Diploma in Information Management",
+    title: "2023 – 2025: Higher Technical Diploma in Management IT",
     subtitle: "ESPIC - Ankazomanga",
     description:
       "Training focused on web development and information systems design. Gained skills in creating robust solutions that meet business needs while ensuring application quality.",
