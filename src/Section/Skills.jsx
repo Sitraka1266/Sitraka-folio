@@ -24,14 +24,17 @@ export function Skills() {
               label="CSS3"
             />
             <SkillIcon
-              iconClass="fab fa-js fa-4x"
-              style={{ color: "#F7DF1E" }}
-              label="JavaScript"
+              iconClass="devicon-typescript-plain colored fa-4x"
+              label="TypeScript"
             />
             <SkillIcon iconClass="devicon-php-plain colored" label="PHP" />
             <SkillIcon
               iconClass="devicon-python-plain colored fa-4x"
               label="Python"
+            />
+            <SkillIcon
+              iconClass="devicon-java-plain colored fa-4x"
+              label="Java"
             />
           </SkillCard>
 
@@ -65,6 +68,10 @@ export function Skills() {
             <SkillIcon
               iconClass="devicon-sqlite-plain colored fa-4x"
               label="SQLite"
+            />
+            <SkillIcon
+              iconClass="devicon-mongodb-plain colored fa-4x"
+              label="MangoDB"
             />
           </SkillCard>
 
