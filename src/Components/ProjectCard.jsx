@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ProjectCard({ title, description, imageSrc, tech = [], hasDemo = true, demoUrl, sourceCode, notOnline = true, delay = "100" }) {
+export function ProjectCard({ title, description, imageSrc, tech = [], hasDemo = true, demoUrl, sourceCode, notOnline = true, noSourceCode = true, delay = "100" }) {
   const techMap = {
     react: { type: "img", src: "/assets/react.svg", alt: "React" },
     vite: { type: "img", src: "/vite.svg", alt: "Vite" },
@@ -12,7 +12,11 @@ export function ProjectCard({ title, description, imageSrc, tech = [], hasDemo =
     js: { type: "icon", className: "fa-brands fa-js text-warning" },
     html: { type: "icon", className: "fa-brands fa-html5 c-orange" },
     css: { type: "icon", className: "fa-brands fa-css3-alt c-blue" },
+    expressjs: { type: "icon", className: "devicon-express-original" },
   };
+
+  const demoDisabled = !hasDemo || notOnline;
+  const sourceDisabled = noSourceCode || !sourceCode;
 
   return (
     <div className={`col animate-slide-up delay-${delay}`}>
@@ -55,25 +59,28 @@ export function ProjectCard({ title, description, imageSrc, tech = [], hasDemo =
           )}
 
           <div className="d-flex justify-content-between align-items-center mt-2">
-
-          {hasDemo == true ?
             <a
-            href={demoUrl}
-            target="_blank"
-            rel="noreferrer"
-            className={`btn btn-outline-primary btn-sm button-shadow-flat ss ${!notOnline ? "" : "disabled"}`}
+              href={demoDisabled ? "#" : demoUrl}
+              target={demoDisabled ? undefined : "_blank"}
+              rel={demoDisabled ? undefined : "noreferrer"}
+              onClick={demoDisabled ? (event) => event.preventDefault() : undefined}
+              className={`btn btn-outline-primary btn-sm button-shadow-flat ss ${demoDisabled ? "disabled" : ""}`}
+              aria-disabled={demoDisabled}
             >
               Live demo <i className="fas fa-external-link-alt ms-1"></i>
-            </a> : ''
-          }
-          {sourceCode ? <a
-            href={sourceCode}
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-outline-primary text-end btn-sm button-shadow-flat ss"
-            
-            >Source code <i className="fa-brands fa-github"></i></a> : ''}
-            </div>
+            </a>
+
+            <a
+              href={sourceDisabled ? "#" : sourceCode}
+              target={sourceDisabled ? undefined : "_blank"}
+              rel={sourceDisabled ? undefined : "noreferrer"}
+              onClick={sourceDisabled ? (event) => event.preventDefault() : undefined}
+              className={`btn btn-outline-primary text-end btn-sm button-shadow-flat ss ${sourceDisabled ? "disabled" : ""}`}
+              aria-disabled={sourceDisabled}
+            >
+              Source code <i className="fa-brands fa-github"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
