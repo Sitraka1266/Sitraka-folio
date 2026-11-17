@@ -2,7 +2,7 @@ export const formationEntries = [
   {
     id: 1,
     iconClass: "fas fa-graduation-cap",
-    title: "2023 - 2026 : BACHELOR'S DEGREE IN MANAGEMENT IT ",
+    title: "2023 - 2026 : BACHELOR DEGREE IN MANAGEMENT IT ",
     subtitle: "ESPIC - Ankazomanga",
     description:
       "Training focused on web development and information systems design. Gained skills in creating robust solutions that meet business needs while ensuring application quality.",
